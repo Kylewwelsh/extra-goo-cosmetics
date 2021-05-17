@@ -1,21 +1,25 @@
-const path = require('path');
+// code for dependencies
 const express = require('express');
+const path = require('path');
+require('dotenv').config();
 const index = require('./routes/index');
 
 const app = express();
 app.set('view engine', 'ejs');
 
-app.use(express.static(path.join(__dirname, 'public')));
+//connection to public folder
+app.use(express.static(path.join(__dirname, 'public')))
 
-app.use('/',index);
+// routes, index.js
+app.use('/', index)
 
-app.use(function(req, res) {
-  res.status(404);
-  res.send('Custom 404: File Not Found');
+// connection to 404 page in public file
+app.use((req, res) => {
+  res.status(404)
+  res.sendFile(__dirname + '/public/404.html')
 });
 
-const PORT = process.env.PORT || 3000;
+//port (also set in .env)
+const port = process.env.PORT || 3000;
 
-app.listen(PORT, function(){
-  console.log(`Listening on port: ${PORT}`);
-})
+app.listen(port, () => console.log(`listening on port ${port}...`));
