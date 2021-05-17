@@ -4,8 +4,9 @@
   /* Colors */
   --mainClr: #f6e9e2;
   --secondClr: #bbcfc4;
-  --thirdClr: #545454;
-  --text-clr: rgb(3, 2, 2);
+  --thirdClr: #bbcfc4;
+  --textClr: rgb(3, 2, 2);
+  --navClr: #bbcfc4d5;
 
   /* Fonts */
   --titles: 'Clicker Script', sans-serif;
@@ -15,4 +16,60 @@
 body {
   margin: 0;
   background-color: var(--mainClr);
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+nav {
+  position: sticky;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  background-color: var(--navClr);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.nav, nav {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+.nav > li {
+  display: inline;
+  font-family: var(--txt2);
+  color: var(--textClr);
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.nav > li > a:hover {
+  color: white;
+}
+
+.indexHeader {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-width: 100%;
+  margin-top: 3rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.indexTagLine {
+  font-family: var(--txt2);
+  font-size: 2rem;
+  padding: 0 4.5rem 0 4.5rem;
+  text-align: center;
 }
