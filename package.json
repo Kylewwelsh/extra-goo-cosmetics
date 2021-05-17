@@ -1,0 +1,27 @@
+{
+  "name": "extra-goo-cosmetics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kylewwelsh/extra-goo-cosmetics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kylewwelsh/extra-goo-cosmetics/issues"
+  },
+  "homepage": "https://github.com/Kylewwelsh/extra-goo-cosmetics#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "node": "^16.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
