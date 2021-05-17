@@ -14,11 +14,11 @@ router.get('/',function(req,res){
   res.render('pages/index',{pageTitle: 'Home'});
 })
 
-router.get('/library',function(req,res){
+router.get('/about-us',function(req,res){
   res.render('pages/about-us',{pageTitle: 'About Us'});
 })
 
-router.get('/exercises',function(req,res){
+router.get('/contact-us',function(req,res){
   res.render('pages/contact-us',{pageTitle: 'Contact Us'});
 })
 
