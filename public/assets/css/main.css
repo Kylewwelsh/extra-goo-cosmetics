@@ -30,6 +30,7 @@ nav {
   left: 0;
   width: 100%;
   background-color: var(--navClr);
+  z-index: 10;
 }
 
 .hamburgerNav {
@@ -78,7 +79,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   background-color: var(--navClr);
-  width: 100%;
+  min-width: 100%;
   min-height: 16rem;
   justify-content: space-evenly;
   text-align: center;
@@ -119,7 +120,7 @@ footer * li {
 
 footer * a {
   font-family: var(--txt2);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .email:hover {
@@ -130,6 +131,7 @@ footer * p {
   font-family: var(--txt2);
   font-size: 1.2rem;
   margin: 0;
+  min-width: 100%;
 }
 
 .footerSectionOne > p:hover {
@@ -154,7 +156,7 @@ footer * i:hover {
 
   .hamburgerNav {
     display: contents;
-    max-width: 100%;
+    width: 100%;
   }
 
   .hamIcon {
@@ -197,6 +199,6 @@ footer * i:hover {
   }
 
   .copyright {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }

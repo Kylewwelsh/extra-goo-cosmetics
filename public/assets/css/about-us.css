@@ -1,0 +1,110 @@
+header {
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  align-items: center;
+}
+
+header > h1 {
+  font-family: var(--titles);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--thirdClr);
+  text-align: center;
+}
+
+.image-container > img {
+  padding: 3rem;
+  object-fit: contain;
+  margin: auto;
+}
+
+header > p {
+  font-family: var(--txt2);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.divider {
+  border: solid black 1px;
+  margin: 0 10rem 0 10rem;
+}
+
+.founderTitle {
+  font-family: var(--titles);
+  font-size: 3rem;
+  color: var(--thirdClr);
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0 6rem 0;
+}
+
+.arianaCard {
+  width: 20rem;
+  height: 40rem;
+  background-color: var(--navClr);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.juliaCard {
+  width: 20rem;
+  height: 40rem;
+  background-color: var(--navClr);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.cardContainer * img {
+  margin-top: 2rem;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.cardContainer * h1 {
+  font-family: var(--titles);
+  font-size: 3rem;
+  color: var(--thirdClr)
+}
+
+.cardContainer * p {
+  font-family: var(--txt2);
+  font-size: 1.25rem;
+  color: var(--textClr);
+}
+
+@media screen and (max-width: 1200px) {
+  .mobileHide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  header > h1 {
+    font-size: 2.5rem;
+  }
+
+  .mobileHideTwo {
+    display: none;
+  }
+
+  .image-container > img {
+    padding: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  header > p {
+    padding: 0;
+  }
+}
