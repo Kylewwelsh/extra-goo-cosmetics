@@ -1,0 +1,90 @@
+* h1 {
+  font-family: var(--titles);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--thirdClr);
+  text-align: center;
+  
+}
+
+.contactContainerOne * p, .contactContainerTwo * p, .contactContainerThree * p {
+  font-family: var(--txt2);
+  font-size: 1.25rem;
+  color: var(--textClr);
+  max-width: 40rem;
+  text-align: center;
+  margin: auto;
+}
+
+.innerContainerOne, .innerContainerTwo, .innerContainerThree {
+  margin-top: 2rem;
+}
+
+* img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.contactContainerOne {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.innerContainerOne {
+  margin: auto 0 auto 0;
+}
+
+
+.contactContainerTwo {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.innerContainerTwo {
+  margin: auto 0 auto 0;
+}
+
+.innerContainerTwo * a {
+  color: var(--textClr);
+  font-weight: 700;
+  word-break: break-all;
+  text-decoration: underline;
+}
+
+.innerContainerTwo * a:hover {
+  background-color: var(--secondClr);
+}
+
+.contactContainerThree {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  margin: 4rem 0 4rem 0;
+}
+
+.innerContainerThree {
+  margin: auto 0 auto 0;
+}
+
+.contactContainerThree * p {
+  margin-bottom: 0;
+}
+
+.questionContainer {
+  margin: 1.5rem;
+}
+
+.bold {
+  font-weight: 900;
+}
