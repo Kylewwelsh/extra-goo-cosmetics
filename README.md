@@ -1,5 +1,5 @@
 # Extra Goo Cosmetics
-### Created by Kyle Welsh, [Deployed on Heroku](https://extragoocosmetics.herokuapp.com/)
+### Created by [Kyle Welsh](https://github.com/Kylewwelsh), [Deployed on Heroku](https://extragoocosmetics.herokuapp.com/)
 <br>
 
 ## Company
@@ -26,3 +26,4 @@ ___
 ## To Do's Still Left:
 - Comment Code
 - Clean up Code
+- Replace filler text/images
