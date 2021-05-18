@@ -21,3 +21,4 @@ ___
 ## Copyright
 ___
 - All Logos, Images & Information belong solely to Extra Goo Cosmetics
+- Any code, styles, designs and items not directly related to the content stated above are under the MIT License
